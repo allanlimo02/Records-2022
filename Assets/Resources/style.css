@@ -1,0 +1,25 @@
+.navbar{
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #004763;
+    scroll-behavior: smooth;
+    position: fixed;
+    width: 80%;
+    left: 10%;
+    margin-top: 20px;
+    border-radius: 35%;
+
+}
+.logo{
+    color: #fff;
+    font-size: 50px;
+}
+.started{
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.contact{
+    padding-left: 20px;
+    padding-right: 20px;
+}
