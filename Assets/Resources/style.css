@@ -1,9 +1,11 @@
+body{
+    font-family:poppins;
+}
 .navbar{
     padding-left: 40px;
     padding-right: 40px;
-    background-color: #004763;
+    background-color: #fff;
     scroll-behavior: smooth;
-    position: fixed;
     width: 80%;
     left: 10%;
     margin-top: 20px;
@@ -11,8 +13,8 @@
 
 }
 .logo{
-    color: #fff;
-    font-size: 50px;
+    color: #004673;
+    font-size: 3vw;
 }
 .started{
     margin-right: 20px;
@@ -22,4 +24,40 @@
 .contact{
     padding-left: 20px;
     padding-right: 20px;
+}
+body{
+    background-image: url(../Images/bookshelf.jpg);
+    background-size: cover;
+}
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    height:30px; 
+    background:#fff;
+}
+.body1{
+    color: white;
+    padding-top: 50px;
+}
+.body1 h2{
+    font-weight: 700;
+    font-size: 2.5vw;
+}
+.body1 p{
+    font-weight: 100;
+    font-size: 1vw;
+}
+.getstarted{
+    background-color: #004673;
+    color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.getstarted:hover{
+    background-color: white;
+    color: #004673;
+    padding-left: 70px;
+    padding-right: 70px;
 }
