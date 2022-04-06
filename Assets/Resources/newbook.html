@@ -16,6 +16,45 @@
         <a href="../../index.html" class="navbar-brand"><button class="btn btn-info"><i class="fa-solid fa-circle-left"></i> Back Home</button></a>
        
       </nav>
+      <div class="">
+          <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-4">
+                <form class="" id="bookform " autocomplete="on">
+                    <div class="form-group">
+                        <label for="studentname" class="text-white">Student Name</label>
+                        <input type="text" class="form-control" id="studentname" placeholder="Student Name">
+                    </div>
+                    
+                    <label for="studentemail" class="text-white">Email</label>
+                    <input type="email" class="form-control" placeholder="Student Email" name="studentemail" id="studentemail">
+                    <label for="imeinumber" class="text-white">Laptop IMEI Number</label>
+                    <input type="text" class="form-control" id="imeinumber" placeholder="Laptop IMEI Number">
+                    <label for="laptopmodel" class="text-white">Laptop Model</label>
+                    <input type="text" class="form-control" id="laptopmodel" placeholder="Laptop Model">
+                    <br>
+                    <button type="submit" class="btn btn-success"><i class="fa-solid fa-user-plus"></i> <br> Create new Entry</button>
+                    
+                </form>
+
+              </div>
+              <div class="col-md-6 bg-light">
+                <table class="table table-striped mt-1">
+                    <thead>
+                      <tr>
+                        <th><i class="fa-solid fa-user-graduate"></i> Student Name</th>
+                        <th><i class="fa-solid fa-envelope"></i> Email</th>
+                        <th><i class="fa-solid fa-laptop"></i> Laptop Model</th>
+                        <th><i class="fa-solid fa-barcode"></i> IMEI Number</th>
+                        <th></th>
+                      </tr>
+                    </thead>
+                    <tbody id="studs-list"></tbody>
+                  </table>
+              </div>
+              <col-md-1></col-md-1>
+          </div>
+      </div>
     
 </body>
 </html>

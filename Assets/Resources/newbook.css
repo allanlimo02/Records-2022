@@ -1,6 +1,7 @@
 body{
     font-family: poppins;
     background-image: url(../Images/bookshelf2.jpg);
+    overflow: hidden;
 }
 .navbar{
     padding-left: 40px;
@@ -11,4 +12,8 @@ body{
     margin-top: 20px;
     border-radius: 35%;
 
+}
+table{
+    font-size: vw;
+    color: white;
 }
