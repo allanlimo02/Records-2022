@@ -20,7 +20,7 @@
           <div class="row">
               <div class="col-md-1"></div>
               <div class="col-md-4">
-                <form class="" id="bookform " autocomplete="on">
+                <form class="" id="bookform " autocomplete="on" onsubmit="event.preventDefault();onFormSubmit()">
                     <div class="form-group">
                         <label for="studentname" class="text-white">Student Name</label>
                         <input type="text" class="form-control" id="studentname" placeholder="Student Name">
@@ -39,7 +39,7 @@
 
               </div>
               <div class="col-md-6 bg-light">
-                <table class="table table-striped mt-1">
+                <table class="table table-striped mt-1" id="outputTable">
                     <thead>
                       <tr>
                         <th><i class="fa-solid fa-user-graduate"></i> Student Name</th>
